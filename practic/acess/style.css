@@ -89,3 +89,29 @@ body {
   text-align: center;
   color: black;
 }
+/* section:what we do */
+
+#what_we_do {
+  margin: 120px 0px 0px 200px;
+  background: rgba(255, 255, 255, 0.966);
+}
+#what_we_do .p-1, .p {
+  font-size: 10px;
+  color:rgba(106, 206, 23, 0.938);
+}
+#what_we_do .p-1 {
+  border-collapse:separate;
+  border-spacing: 50px 5px;
+}
+#what_we_do .p-1 .button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: whitesmoke;
+  border: none;
+  background-color: rgb(35, 59, 10);
+  text-align: center;
+}
+
+#what_we_do .button:hover {
+  background-color: green;
+}
